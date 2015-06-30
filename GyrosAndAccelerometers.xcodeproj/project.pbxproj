@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		37E1A7BD1B431AC6006F1D79 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 37E1A7951B431AC6006F1D79 /* .gitignore */; };
+		37E1A7BE1B431AC6006F1D79 /* .gitmodules in Resources */ = {isa = PBXBuildFile; fileRef = 37E1A7961B431AC6006F1D79 /* .gitmodules */; };
+		37E1A7BF1B431AC6006F1D79 /* Device.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E1A7981B431AC6006F1D79 /* Device.m */; };
+		37E1A7C01B431AC6006F1D79 /* gpl.txt in Resources */ = {isa = PBXBuildFile; fileRef = 37E1A7991B431AC6006F1D79 /* gpl.txt */; };
+		37E1A7C11B431AC6006F1D79 /* lgpl.txt in Resources */ = {isa = PBXBuildFile; fileRef = 37E1A79A1B431AC6006F1D79 /* lgpl.txt */; };
+		37E1A7C21B431AC6006F1D79 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 37E1A79B1B431AC6006F1D79 /* LICENSE */; };
+		37E1A7C31B431AC6006F1D79 /* Observer.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E1A79D1B431AC6006F1D79 /* Observer.m */; };
+		37E1A7C41B431AC6006F1D79 /* Orientation.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E1A79F1B431AC6006F1D79 /* Orientation.m */; };
+		37E1A7C51B431AC6006F1D79 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 37E1A7A01B431AC6006F1D79 /* README.md */; };
+		37E1A7C61B431AC6006F1D79 /* base64.c in Sources */ = {isa = PBXBuildFile; fileRef = 37E1A7A21B431AC6006F1D79 /* base64.c */; };
+		37E1A7C71B431AC6006F1D79 /* NSData+SRB64Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E1A7A51B431AC6006F1D79 /* NSData+SRB64Additions.m */; };
+		37E1A7C81B431AC6006F1D79 /* SRWebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E1A7A81B431AC6006F1D79 /* SRWebSocket.m */; };
+		37E1A7C91B431AC6006F1D79 /* SOD.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E1A7AA1B431AC6006F1D79 /* SOD.m */; };
+		37E1A7CA1B431AC6006F1D79 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 37E1A7AC1B431AC6006F1D79 /* .gitignore */; };
+		37E1A7CB1B431AC6006F1D79 /* .gitmodules in Resources */ = {isa = PBXBuildFile; fileRef = 37E1A7AD1B431AC6006F1D79 /* .gitmodules */; };
+		37E1A7CC1B431AC6006F1D79 /* CHANGELOG.md in Sources */ = {isa = PBXBuildFile; fileRef = 37E1A7AE1B431AC6006F1D79 /* CHANGELOG.md */; };
+		37E1A7CD1B431AC6006F1D79 /* CONTRIBUTORS.md in Sources */ = {isa = PBXBuildFile; fileRef = 37E1A7AF1B431AC6006F1D79 /* CONTRIBUTORS.md */; };
+		37E1A7CE1B431AC6006F1D79 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 37E1A7B01B431AC6006F1D79 /* LICENSE */; };
+		37E1A7CF1B431AC6006F1D79 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 37E1A7B11B431AC6006F1D79 /* README.md */; };
+		37E1A7D01B431AC6006F1D79 /* SocketIO.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E1A7B31B431AC6006F1D79 /* SocketIO.m */; };
+		37E1A7D11B431AC6006F1D79 /* SocketIOJSONSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E1A7B51B431AC6006F1D79 /* SocketIOJSONSerialization.m */; };
+		37E1A7D21B431AC6006F1D79 /* SocketIOPacket.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E1A7B71B431AC6006F1D79 /* SocketIOPacket.m */; };
+		37E1A7D31B431AC6006F1D79 /* SocketIOTransportWebsocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E1A7BA1B431AC6006F1D79 /* SocketIOTransportWebsocket.m */; };
+		37E1A7D41B431AC6006F1D79 /* SocketIOTransportXHR.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E1A7BC1B431AC6006F1D79 /* SocketIOTransportXHR.m */; };
+		37E1A7D61B431ADA006F1D79 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37E1A7D51B431ADA006F1D79 /* CoreLocation.framework */; };
+		37E1A7D81B431AE3006F1D79 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37E1A7D71B431AE3006F1D79 /* CoreBluetooth.framework */; };
+		37E1A7DA1B431AF5006F1D79 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37E1A7D91B431AF5006F1D79 /* CFNetwork.framework */; };
+		37E1A7DC1B431B01006F1D79 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37E1A7DB1B431B01006F1D79 /* Security.framework */; };
+		37E1A7DE1B431B22006F1D79 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 37E1A7DD1B431B22006F1D79 /* libicucore.dylib */; };
+		887126A01700074C00EB79EB /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8871269F1700074C00EB79EB /* CoreMotion.framework */; };
+		88C71AEB16FFEAA600EDD877 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88C71AEA16FFEAA600EDD877 /* UIKit.framework */; };
+		88C71AED16FFEAA600EDD877 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88C71AEC16FFEAA600EDD877 /* Foundation.framework */; };
+		88C71AEF16FFEAA600EDD877 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88C71AEE16FFEAA600EDD877 /* CoreGraphics.framework */; };
+		88C71AF516FFEAA600EDD877 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 88C71AF316FFEAA600EDD877 /* InfoPlist.strings */; };
+		88C71AF716FFEAA600EDD877 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 88C71AF616FFEAA600EDD877 /* main.m */; };
+		88C71AFB16FFEAA600EDD877 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 88C71AFA16FFEAA600EDD877 /* AppDelegate.m */; };
+		88C71AFD16FFEAA600EDD877 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 88C71AFC16FFEAA600EDD877 /* Default.png */; };
+		88C71AFF16FFEAA600EDD877 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88C71AFE16FFEAA600EDD877 /* Default@2x.png */; };
+		88C71B0116FFEAA600EDD877 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88C71B0016FFEAA600EDD877 /* Default-568h@2x.png */; };
+		88C71B0416FFEAA600EDD877 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88C71B0216FFEAA600EDD877 /* MainStoryboard.storyboard */; };
+		88C71B0716FFEAA600EDD877 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88C71B0616FFEAA600EDD877 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		37E1A7951B431AC6006F1D79 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		37E1A7961B431AC6006F1D79 /* .gitmodules */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitmodules; sourceTree = "<group>"; };
+		37E1A7971B431AC6006F1D79 /* Device.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Device.h; sourceTree = "<group>"; };
+		37E1A7981B431AC6006F1D79 /* Device.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Device.m; sourceTree = "<group>"; };
+		37E1A7991B431AC6006F1D79 /* gpl.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = gpl.txt; sourceTree = "<group>"; };
+		37E1A79A1B431AC6006F1D79 /* lgpl.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = lgpl.txt; sourceTree = "<group>"; };
+		37E1A79B1B431AC6006F1D79 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		37E1A79C1B431AC6006F1D79 /* Observer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Observer.h; sourceTree = "<group>"; };
+		37E1A79D1B431AC6006F1D79 /* Observer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Observer.m; sourceTree = "<group>"; };
+		37E1A79E1B431AC6006F1D79 /* Orientation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Orientation.h; sourceTree = "<group>"; };
+		37E1A79F1B431AC6006F1D79 /* Orientation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Orientation.m; sourceTree = "<group>"; };
+		37E1A7A01B431AC6006F1D79 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		37E1A7A21B431AC6006F1D79 /* base64.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = base64.c; sourceTree = "<group>"; };
+		37E1A7A31B431AC6006F1D79 /* base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = base64.h; sourceTree = "<group>"; };
+		37E1A7A41B431AC6006F1D79 /* NSData+SRB64Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+SRB64Additions.h"; sourceTree = "<group>"; };
+		37E1A7A51B431AC6006F1D79 /* NSData+SRB64Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+SRB64Additions.m"; sourceTree = "<group>"; };
+		37E1A7A61B431AC6006F1D79 /* SocketRocket-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SocketRocket-Prefix.pch"; sourceTree = "<group>"; };
+		37E1A7A71B431AC6006F1D79 /* SRWebSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRWebSocket.h; sourceTree = "<group>"; };
+		37E1A7A81B431AC6006F1D79 /* SRWebSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRWebSocket.m; sourceTree = "<group>"; };
+		37E1A7A91B431AC6006F1D79 /* SOD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SOD.h; sourceTree = "<group>"; };
+		37E1A7AA1B431AC6006F1D79 /* SOD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SOD.m; sourceTree = "<group>"; };
+		37E1A7AC1B431AC6006F1D79 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		37E1A7AD1B431AC6006F1D79 /* .gitmodules */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitmodules; sourceTree = "<group>"; };
+		37E1A7AE1B431AC6006F1D79 /* CHANGELOG.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = CHANGELOG.md; sourceTree = "<group>"; };
+		37E1A7AF1B431AC6006F1D79 /* CONTRIBUTORS.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = CONTRIBUTORS.md; sourceTree = "<group>"; };
+		37E1A7B01B431AC6006F1D79 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		37E1A7B11B431AC6006F1D79 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		37E1A7B21B431AC6006F1D79 /* SocketIO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocketIO.h; sourceTree = "<group>"; };
+		37E1A7B31B431AC6006F1D79 /* SocketIO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocketIO.m; sourceTree = "<group>"; };
+		37E1A7B41B431AC6006F1D79 /* SocketIOJSONSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocketIOJSONSerialization.h; sourceTree = "<group>"; };
+		37E1A7B51B431AC6006F1D79 /* SocketIOJSONSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocketIOJSONSerialization.m; sourceTree = "<group>"; };
+		37E1A7B61B431AC6006F1D79 /* SocketIOPacket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocketIOPacket.h; sourceTree = "<group>"; };
+		37E1A7B71B431AC6006F1D79 /* SocketIOPacket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocketIOPacket.m; sourceTree = "<group>"; };
+		37E1A7B81B431AC6006F1D79 /* SocketIOTransport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocketIOTransport.h; sourceTree = "<group>"; };
+		37E1A7B91B431AC6006F1D79 /* SocketIOTransportWebsocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocketIOTransportWebsocket.h; sourceTree = "<group>"; };
+		37E1A7BA1B431AC6006F1D79 /* SocketIOTransportWebsocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocketIOTransportWebsocket.m; sourceTree = "<group>"; };
+		37E1A7BB1B431AC6006F1D79 /* SocketIOTransportXHR.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocketIOTransportXHR.h; sourceTree = "<group>"; };
+		37E1A7BC1B431AC6006F1D79 /* SocketIOTransportXHR.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocketIOTransportXHR.m; sourceTree = "<group>"; };
+		37E1A7D51B431ADA006F1D79 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		37E1A7D71B431AE3006F1D79 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		37E1A7D91B431AF5006F1D79 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		37E1A7DB1B431B01006F1D79 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		37E1A7DD1B431B22006F1D79 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		8871269F1700074C00EB79EB /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		88C71AE716FFEAA600EDD877 /* GyrosAndAccelerometers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GyrosAndAccelerometers.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		88C71AEA16FFEAA600EDD877 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		88C71AEC16FFEAA600EDD877 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		88C71AEE16FFEAA600EDD877 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		88C71AF216FFEAA600EDD877 /* GyrosAndAccelerometers-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GyrosAndAccelerometers-Info.plist"; sourceTree = "<group>"; };
+		88C71AF416FFEAA600EDD877 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		88C71AF616FFEAA600EDD877 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		88C71AF816FFEAA600EDD877 /* GyrosAndAccelerometers-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GyrosAndAccelerometers-Prefix.pch"; sourceTree = "<group>"; };
+		88C71AF916FFEAA600EDD877 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		88C71AFA16FFEAA600EDD877 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		88C71AFC16FFEAA600EDD877 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		88C71AFE16FFEAA600EDD877 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		88C71B0016FFEAA600EDD877 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		88C71B0316FFEAA600EDD877 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		88C71B0516FFEAA600EDD877 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		88C71B0616FFEAA600EDD877 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		88C71AE416FFEAA600EDD877 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37E1A7DE1B431B22006F1D79 /* libicucore.dylib in Frameworks */,
+				37E1A7DC1B431B01006F1D79 /* Security.framework in Frameworks */,
+				37E1A7DA1B431AF5006F1D79 /* CFNetwork.framework in Frameworks */,
+				37E1A7D81B431AE3006F1D79 /* CoreBluetooth.framework in Frameworks */,
+				37E1A7D61B431ADA006F1D79 /* CoreLocation.framework in Frameworks */,
+				887126A01700074C00EB79EB /* CoreMotion.framework in Frameworks */,
+				88C71AEB16FFEAA600EDD877 /* UIKit.framework in Frameworks */,
+				88C71AED16FFEAA600EDD877 /* Foundation.framework in Frameworks */,
+				88C71AEF16FFEAA600EDD877 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		37E1A7941B431AC6006F1D79 /* SoD_iOS_Library */ = {
+			isa = PBXGroup;
+			children = (
+				37E1A7951B431AC6006F1D79 /* .gitignore */,
+				37E1A7961B431AC6006F1D79 /* .gitmodules */,
+				37E1A7971B431AC6006F1D79 /* Device.h */,
+				37E1A7981B431AC6006F1D79 /* Device.m */,
+				37E1A7991B431AC6006F1D79 /* gpl.txt */,
+				37E1A79A1B431AC6006F1D79 /* lgpl.txt */,
+				37E1A79B1B431AC6006F1D79 /* LICENSE */,
+				37E1A79C1B431AC6006F1D79 /* Observer.h */,
+				37E1A79D1B431AC6006F1D79 /* Observer.m */,
+				37E1A79E1B431AC6006F1D79 /* Orientation.h */,
+				37E1A79F1B431AC6006F1D79 /* Orientation.m */,
+				37E1A7A01B431AC6006F1D79 /* README.md */,
+				37E1A7A11B431AC6006F1D79 /* SocketRocket */,
+				37E1A7A91B431AC6006F1D79 /* SOD.h */,
+				37E1A7AA1B431AC6006F1D79 /* SOD.m */,
+				37E1A7AB1B431AC6006F1D79 /* submodules */,
+			);
+			name = SoD_iOS_Library;
+			path = ../ASELAB/JuneSummerWork/SoD_iOS_Library;
+			sourceTree = "<group>";
+		};
+		37E1A7A11B431AC6006F1D79 /* SocketRocket */ = {
+			isa = PBXGroup;
+			children = (
+				37E1A7A21B431AC6006F1D79 /* base64.c */,
+				37E1A7A31B431AC6006F1D79 /* base64.h */,
+				37E1A7A41B431AC6006F1D79 /* NSData+SRB64Additions.h */,
+				37E1A7A51B431AC6006F1D79 /* NSData+SRB64Additions.m */,
+				37E1A7A61B431AC6006F1D79 /* SocketRocket-Prefix.pch */,
+				37E1A7A71B431AC6006F1D79 /* SRWebSocket.h */,
+				37E1A7A81B431AC6006F1D79 /* SRWebSocket.m */,
+			);
+			path = SocketRocket;
+			sourceTree = "<group>";
+		};
+		37E1A7AB1B431AC6006F1D79 /* submodules */ = {
+			isa = PBXGroup;
+			children = (
+				37E1A7AC1B431AC6006F1D79 /* .gitignore */,
+				37E1A7AD1B431AC6006F1D79 /* .gitmodules */,
+				37E1A7AE1B431AC6006F1D79 /* CHANGELOG.md */,
+				37E1A7AF1B431AC6006F1D79 /* CONTRIBUTORS.md */,
+				37E1A7B01B431AC6006F1D79 /* LICENSE */,
+				37E1A7B11B431AC6006F1D79 /* README.md */,
+				37E1A7B21B431AC6006F1D79 /* SocketIO.h */,
+				37E1A7B31B431AC6006F1D79 /* SocketIO.m */,
+				37E1A7B41B431AC6006F1D79 /* SocketIOJSONSerialization.h */,
+				37E1A7B51B431AC6006F1D79 /* SocketIOJSONSerialization.m */,
+				37E1A7B61B431AC6006F1D79 /* SocketIOPacket.h */,
+				37E1A7B71B431AC6006F1D79 /* SocketIOPacket.m */,
+				37E1A7B81B431AC6006F1D79 /* SocketIOTransport.h */,
+				37E1A7B91B431AC6006F1D79 /* SocketIOTransportWebsocket.h */,
+				37E1A7BA1B431AC6006F1D79 /* SocketIOTransportWebsocket.m */,
+				37E1A7BB1B431AC6006F1D79 /* SocketIOTransportXHR.h */,
+				37E1A7BC1B431AC6006F1D79 /* SocketIOTransportXHR.m */,
+			);
+			path = submodules;
+			sourceTree = "<group>";
+		};
+		88C71ADE16FFEAA600EDD877 = {
+			isa = PBXGroup;
+			children = (
+				37E1A7941B431AC6006F1D79 /* SoD_iOS_Library */,
+				8871269F1700074C00EB79EB /* CoreMotion.framework */,
+				88C71AF016FFEAA600EDD877 /* GyrosAndAccelerometers */,
+				88C71AE916FFEAA600EDD877 /* Frameworks */,
+				88C71AE816FFEAA600EDD877 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		88C71AE816FFEAA600EDD877 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				88C71AE716FFEAA600EDD877 /* GyrosAndAccelerometers.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		88C71AE916FFEAA600EDD877 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				37E1A7DD1B431B22006F1D79 /* libicucore.dylib */,
+				37E1A7DB1B431B01006F1D79 /* Security.framework */,
+				37E1A7D91B431AF5006F1D79 /* CFNetwork.framework */,
+				37E1A7D71B431AE3006F1D79 /* CoreBluetooth.framework */,
+				37E1A7D51B431ADA006F1D79 /* CoreLocation.framework */,
+				88C71AEA16FFEAA600EDD877 /* UIKit.framework */,
+				88C71AEC16FFEAA600EDD877 /* Foundation.framework */,
+				88C71AEE16FFEAA600EDD877 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		88C71AF016FFEAA600EDD877 /* GyrosAndAccelerometers */ = {
+			isa = PBXGroup;
+			children = (
+				88C71AF916FFEAA600EDD877 /* AppDelegate.h */,
+				88C71AFA16FFEAA600EDD877 /* AppDelegate.m */,
+				88C71B0216FFEAA600EDD877 /* MainStoryboard.storyboard */,
+				88C71B0516FFEAA600EDD877 /* ViewController.h */,
+				88C71B0616FFEAA600EDD877 /* ViewController.m */,
+				88C71AF116FFEAA600EDD877 /* Supporting Files */,
+			);
+			path = GyrosAndAccelerometers;
+			sourceTree = "<group>";
+		};
+		88C71AF116FFEAA600EDD877 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				88C71AF216FFEAA600EDD877 /* GyrosAndAccelerometers-Info.plist */,
+				88C71AF316FFEAA600EDD877 /* InfoPlist.strings */,
+				88C71AF616FFEAA600EDD877 /* main.m */,
+				88C71AF816FFEAA600EDD877 /* GyrosAndAccelerometers-Prefix.pch */,
+				88C71AFC16FFEAA600EDD877 /* Default.png */,
+				88C71AFE16FFEAA600EDD877 /* Default@2x.png */,
+				88C71B0016FFEAA600EDD877 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		88C71AE616FFEAA600EDD877 /* GyrosAndAccelerometers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88C71B0A16FFEAA600EDD877 /* Build configuration list for PBXNativeTarget "GyrosAndAccelerometers" */;
+			buildPhases = (
+				88C71AE316FFEAA600EDD877 /* Sources */,
+				88C71AE416FFEAA600EDD877 /* Frameworks */,
+				88C71AE516FFEAA600EDD877 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GyrosAndAccelerometers;
+			productName = GyrosAndAccelerometers;
+			productReference = 88C71AE716FFEAA600EDD877 /* GyrosAndAccelerometers.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		88C71ADF16FFEAA600EDD877 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Joe Hoffman";
+			};
+			buildConfigurationList = 88C71AE216FFEAA600EDD877 /* Build configuration list for PBXProject "GyrosAndAccelerometers" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 88C71ADE16FFEAA600EDD877;
+			productRefGroup = 88C71AE816FFEAA600EDD877 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				88C71AE616FFEAA600EDD877 /* GyrosAndAccelerometers */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		88C71AE516FFEAA600EDD877 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37E1A7C01B431AC6006F1D79 /* gpl.txt in Resources */,
+				37E1A7BE1B431AC6006F1D79 /* .gitmodules in Resources */,
+				37E1A7CE1B431AC6006F1D79 /* LICENSE in Resources */,
+				88C71AF516FFEAA600EDD877 /* InfoPlist.strings in Resources */,
+				88C71AFD16FFEAA600EDD877 /* Default.png in Resources */,
+				37E1A7CA1B431AC6006F1D79 /* .gitignore in Resources */,
+				37E1A7C21B431AC6006F1D79 /* LICENSE in Resources */,
+				37E1A7CB1B431AC6006F1D79 /* .gitmodules in Resources */,
+				88C71AFF16FFEAA600EDD877 /* Default@2x.png in Resources */,
+				88C71B0116FFEAA600EDD877 /* Default-568h@2x.png in Resources */,
+				37E1A7BD1B431AC6006F1D79 /* .gitignore in Resources */,
+				37E1A7C11B431AC6006F1D79 /* lgpl.txt in Resources */,
+				88C71B0416FFEAA600EDD877 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		88C71AE316FFEAA600EDD877 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37E1A7C91B431AC6006F1D79 /* SOD.m in Sources */,
+				88C71AF716FFEAA600EDD877 /* main.m in Sources */,
+				37E1A7D41B431AC6006F1D79 /* SocketIOTransportXHR.m in Sources */,
+				88C71AFB16FFEAA600EDD877 /* AppDelegate.m in Sources */,
+				37E1A7C81B431AC6006F1D79 /* SRWebSocket.m in Sources */,
+				37E1A7C41B431AC6006F1D79 /* Orientation.m in Sources */,
+				37E1A7D21B431AC6006F1D79 /* SocketIOPacket.m in Sources */,
+				37E1A7CD1B431AC6006F1D79 /* CONTRIBUTORS.md in Sources */,
+				37E1A7C71B431AC6006F1D79 /* NSData+SRB64Additions.m in Sources */,
+				37E1A7C51B431AC6006F1D79 /* README.md in Sources */,
+				37E1A7CC1B431AC6006F1D79 /* CHANGELOG.md in Sources */,
+				37E1A7D01B431AC6006F1D79 /* SocketIO.m in Sources */,
+				37E1A7C31B431AC6006F1D79 /* Observer.m in Sources */,
+				37E1A7CF1B431AC6006F1D79 /* README.md in Sources */,
+				88C71B0716FFEAA600EDD877 /* ViewController.m in Sources */,
+				37E1A7C61B431AC6006F1D79 /* base64.c in Sources */,
+				37E1A7BF1B431AC6006F1D79 /* Device.m in Sources */,
+				37E1A7D31B431AC6006F1D79 /* SocketIOTransportWebsocket.m in Sources */,
+				37E1A7D11B431AC6006F1D79 /* SocketIOJSONSerialization.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		88C71AF316FFEAA600EDD877 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88C71AF416FFEAA600EDD877 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		88C71B0216FFEAA600EDD877 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88C71B0316FFEAA600EDD877 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		88C71B0816FFEAA600EDD877 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		88C71B0916FFEAA600EDD877 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		88C71B0B16FFEAA600EDD877 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GyrosAndAccelerometers/GyrosAndAccelerometers-Prefix.pch";
+				INFOPLIST_FILE = "GyrosAndAccelerometers/GyrosAndAccelerometers-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		88C71B0C16FFEAA600EDD877 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GyrosAndAccelerometers/GyrosAndAccelerometers-Prefix.pch";
+				INFOPLIST_FILE = "GyrosAndAccelerometers/GyrosAndAccelerometers-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		88C71AE216FFEAA600EDD877 /* Build configuration list for PBXProject "GyrosAndAccelerometers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88C71B0816FFEAA600EDD877 /* Debug */,
+				88C71B0916FFEAA600EDD877 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88C71B0A16FFEAA600EDD877 /* Build configuration list for PBXNativeTarget "GyrosAndAccelerometers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88C71B0B16FFEAA600EDD877 /* Debug */,
+				88C71B0C16FFEAA600EDD877 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 88C71ADF16FFEAA600EDD877 /* Project object */;
+}
