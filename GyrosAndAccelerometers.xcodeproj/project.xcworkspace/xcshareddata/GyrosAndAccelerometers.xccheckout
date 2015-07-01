@@ -6,43 +6,35 @@
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>E53F9431-B878-4DF5-8094-D2C398553225</string>
+	<key>IDESourceControlProjectName</key>
+	<string>GyrosAndAccelerometers</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>43AC92FD7017ECDE18489EEA6AD2FD795E158D7E</key>
-		<string>https://github.com/ase-lab/socket.IO-objc.git</string>
-		<key>9B625D2A609DB58A2C2ED13E0FBB2211B57AE545</key>
-		<string>https://github.com/ase-lab/SoD_iOS_Library.git</string>
+		<key>1909F5A69C5BA3283EF74AB17A37B2F9495D5195</key>
+		<string>https://github.com/namuthan1/GyrosAndAccelorometer.git</string>
 	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>GyrosAndAccelerometers.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>43AC92FD7017ECDE18489EEA6AD2FD795E158D7E</key>
-		<string>SoD_iOS_Library/submodules/</string>
-		<key>9B625D2A609DB58A2C2ED13E0FBB2211B57AE545</key>
-		<string>SoD_iOS_Library/</string>
+		<key>1909F5A69C5BA3283EF74AB17A37B2F9495D5195</key>
+		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/ase-lab/SoD_iOS_Library.git</string>
+	<string>https://github.com/namuthan1/GyrosAndAccelorometer.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>9B625D2A609DB58A2C2ED13E0FBB2211B57AE545</string>
+	<string>1909F5A69C5BA3283EF74AB17A37B2F9495D5195</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>9B625D2A609DB58A2C2ED13E0FBB2211B57AE545</string>
+			<string>1909F5A69C5BA3283EF74AB17A37B2F9495D5195</string>
 			<key>IDESourceControlWCCName</key>
-			<string>SoD_iOS_Library</string>
-		</dict>
-		<dict>
-			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
-			<string>public.vcs.git</string>
-			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>43AC92FD7017ECDE18489EEA6AD2FD795E158D7E</string>
-			<key>IDESourceControlWCCName</key>
-			<string>submodules</string>
+			<string>GyrosAndAccelorometer</string>
 		</dict>
 	</array>
 </dict>

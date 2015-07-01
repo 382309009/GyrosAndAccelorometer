@@ -34,7 +34,8 @@
     currentSpeed = 0;
     
     self.motionManager = [[CMMotionManager alloc] init];
-    self.motionManager.accelerometerUpdateInterval = MY_CONSTANT_TIME_INTERVAL;
+    
+    /*self.motionManager.accelerometerUpdateInterval = MY_CONSTANT_TIME_INTERVAL;
     self.motionManager.gyroUpdateInterval = MY_CONSTANT_TIME_INTERVAL;
     
     [self.motionManager startAccelerometerUpdatesToQueue:[NSOperationQueue currentQueue]
@@ -46,10 +47,22 @@
                                                  }
     }];
     
+    
+    
     [self.motionManager startGyroUpdatesToQueue:[NSOperationQueue currentQueue]
                                     withHandler:^(CMGyroData *gyroData, NSError *error) {
                                         [self outputRotationData:gyroData.rotationRate];
                                     }];
+     */
+    
+    self.motionManager.deviceMotionUpdateInterval = 0.1f; // update every 100 ms
+    [self.motionManager startDeviceMotionUpdatesToQueue:[NSOperationQueue mainQueue]
+                                       withHandler:^(CMDeviceMotion *motion, NSError *error)
+     {
+         [self outputAccelertionData:motion.userAcceleration];
+     }
+     ];
+
 }
 
 
